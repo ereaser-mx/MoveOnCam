@@ -1,5 +1,14 @@
-﻿################################################################################
-# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
-################################################################################
+# Archivos de Python
+__pycache__/
+*.py[cod]
 
-/.vs
+# Entornos virtuales
+venv/
+.venv/
+
+# Configuración local de editores
+.vscode/
+
+# Archivos temporales
+*.log
+.DS_Store
